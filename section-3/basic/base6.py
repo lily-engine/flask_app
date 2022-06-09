@@ -9,5 +9,12 @@ b = 3 + 5j
 
 # complex
 
-a = Complex(1, 3)
-b = Complex(3, 5)
+a = complex(1, 3)
+b = complex(3, 5)
+print(a, b)
+print(a+b)
+print(a-b)
+print(a*b)
+
+print(a.real) #float型で表示される
+print(a.imag) #float型で表示される
