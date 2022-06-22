@@ -11,7 +11,7 @@ print(list_a[1][2]) # apple
 list_a[1][2] = 'lemon' # 中身の書き換え
 print(list_a) # [1, [1, 2, 'lemon'], 3, 'banana']
 
-# リストのメソッド
+# リストのメソッド  ## endは含まれずにend未満になる。
 
 list_a = [1,2,3,4,5]
 
@@ -51,4 +51,9 @@ print(list_a)
 # sort reverse
 list_a = ['banana', 'apple', 'lemon', 'grape']
 print(list_a)
-
+# list_a.sort()
+# print(list_a)
+list_a = sorted(list_a)
+print(list_a) # 昇順
+list_a.reverse()
+print(list_a) # 降順
